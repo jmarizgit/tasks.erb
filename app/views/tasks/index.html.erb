@@ -1,5 +1,5 @@
 <h1>Tasks</h1>
-<%= render 'form' %>
+<%= render 'form', :submit => "Create Task" %>
 <ul>
 	<% for task in @tasks %>
 	<li id="task_<%= task.id %>">
