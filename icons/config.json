@@ -1,0 +1,69 @@
+{
+  "name": "icons",
+  "glyphs": [
+    {
+      "uid": "dd6c6b221a1088ff8a9b9cd32d0b3dd5",
+      "orig_css": "check",
+      "orig_code": 9745,
+      "css": "check-task",
+      "code": 9745,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "c77fd2fd065b5fe16d6f2b41e190b266",
+      "orig_css": "pencil",
+      "orig_code": 9998,
+      "css": "pencil-task",
+      "code": 9998,
+      "src": "entypo"
+    },
+    {
+      "uid": "f48ae54adfb27d8ada53d0fd9e34ee10",
+      "orig_css": "trash",
+      "orig_code": 59177,
+      "css": "trash-task",
+      "code": 59177,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "bcb868184ff9c35f8aef564f50c0d649",
+      "orig_css": "feather",
+      "orig_code": 10002,
+      "css": "feather-task",
+      "code": 10002,
+      "src": "entypo"
+    },
+    {
+      "uid": "97var6sq7rzo72ktzg1c6ph46u9pftbr",
+      "orig_css": "pencil-alt",
+      "orig_code": 10000,
+      "css": "pencil-alt-task",
+      "code": 10000,
+      "src": "modernpics"
+    },
+    {
+      "uid": "in76hg99crrkpcbz2rjnmgbiw74s72y0",
+      "orig_css": "ok",
+      "orig_code": 10003,
+      "css": "ok-task",
+      "code": 10003,
+      "src": "modernpics"
+    },
+    {
+      "uid": "rrhco7mfj6ro9yzhe4a1rbln9flw47re",
+      "orig_css": "cancel",
+      "orig_code": 10005,
+      "css": "cancel-task",
+      "code": 10005,
+      "src": "modernpics"
+    },
+    {
+      "uid": "4a0bb1ac004980bb3837560d4c9e8cee",
+      "orig_css": "github",
+      "orig_code": 62216,
+      "css": "github-task",
+      "code": 62216,
+      "src": "brandico"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+[class^="icon-"],
+[class*=" icon-"] {
+  font-family: 'icons';
+  font-style: normal;
+  font-weight: normal;
+/* fix buttons height */
+  line-height: 1em;
+/* you can be more comfortable with increased icons size */
+/* font-size: 120%; */
+}
+
+.icon-check-task { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#x2611;&nbsp;'); }
+.icon-pencil-task { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#x270e;&nbsp;'); }
+.icon-pencil-alt-task { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#x2710;&nbsp;'); }
+.icon-feather-task { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#x2712;&nbsp;'); }
+.icon-ok-task { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#x2713;&nbsp;'); }
+.icon-cancel-task { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#x2715;&nbsp;'); }
+.icon-trash-task { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe729;&nbsp;'); }
+.icon-github-task { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf308;&nbsp;'); }

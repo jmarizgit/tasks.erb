@@ -1,5 +1,7 @@
 <%= form_for @task do |f| %>
+<div class="input-append">
 	<%= f.label :task %>
-	<%= f.text_field :task, :"x-webkit-speech" => "", :speech => "" %>
-	<%= f.submit submit, :class => 'btn' %>
+	<%= f.text_field :task, :"x-webkit-speech" => "", :speech => "", :class => 'span4', :style => "height:26px" %>
+	<%= f.submit submit, :class => 'btn btn-primary btn-large' %>
+</div>
 <% end %>

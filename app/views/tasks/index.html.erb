@@ -1,11 +1,20 @@
-<h1>Tasks</h1>
+<h4>Add Tasks</h4>
 <%= render 'form', :submit => "Create Task" %>
-<ul>
+<table class="table">
+	<thead>
+	<tr>
+		<th> </th>
+	</tr>
+	</thead>
 	<% for task in @tasks %>
-	<li id="task_<%= task.id %>">
-		<%= task.task %> | 
-		<%= link_to 'Edit', edit_task_path(task) %>
-		<%= link_to 'Delete', task, :method => 'delete' %>
-	</li>
+	<tr>
+	<td id="task_<%= task.id %>">
+		<%= task.task %>
+		<span> 
+		<%= link_to (raw("<i class='icon-pencil-task'></i>")), edit_task_path(task), :title => 'Edit', :name => 'Edit' %>
+		<%= link_to (raw("<i class='icon-trash-task'></i>")), task, :method => 'delete', :title => 'Delete' %>
+		</span>
+	</td>
+	</tr>
 	<% end %>
-</ul>
+</table>

@@ -1,0 +1,9 @@
+
+.icon-check-task:before { content: '\2611'; } /* '☑' */
+.icon-pencil-task:before { content: '\270e'; } /* '✎' */
+.icon-pencil-alt-task:before { content: '\2710'; } /* '✐' */
+.icon-feather-task:before { content: '\2712'; } /* '✒' */
+.icon-ok-task:before { content: '\2713'; } /* '✓' */
+.icon-cancel-task:before { content: '\2715'; } /* '✕' */
+.icon-trash-task:before { content: '\e729'; } /* '' */
+.icon-github-task:before { content: '\f308'; } /* '' */

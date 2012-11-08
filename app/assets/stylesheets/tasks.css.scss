@@ -1,10 +1,49 @@
 // Place all the styles related to the Tasks controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+body{
+	padding: 30px;
+	background: #F2F2F2;
+}
 #flash_notice{
 	background: green;
 	color: white;
-	border: 1px solid darken(green, 20%);
 	text-align: center;
 	padding: 5px;
+}
+.input-append label{ display: none;}
+.icon-check-task{
+	color: #3B9AD5;
+	position: absolute;
+	margin-top: 14px;
+	font-size: 35px;
+}
+h1.title{
+	color: #3B9AD5;
+	margin-left: 45px;
+}
+.table i{
+	margin-right: 6px;
+	margin-top: -2px;
+	font-size: 20px;
+	text-decoration: none;
+}
+.table td{
+	position: relative;
+}
+.table span{
+	position: absolute;
+	right: 0;
+}
+.mini-layout{
+	background: white;
+	padding: 30px;
+	padding-top: 15px;
+  border: 1px solid #ddd;
+  -webkit-border-radius: 6px;
+     -moz-border-radius: 6px;
+          border-radius: 6px;
+  -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.075);
+     -moz-box-shadow: 0 1px 2px rgba(0,0,0,.075);
+          box-shadow: 0 1px 2px rgba(0,0,0,.075);
 }
